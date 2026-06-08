@@ -95,8 +95,8 @@ export default function Hero() {
           <button
             onClick={() => {
               const link = document.createElement('a');
-              link.href = '/sara_maisa.pdf';
-              link.download = 'Sara_Maisa_Resume.pdf';
+              link.href = "/sara maisa.pdf";
+              link.download = 'sara maisa.pdf';
               link.click();
             }}
             className="group flex items-center gap-2.5 px-8 py-3.5 rounded-xl border-2 border-sky-400/50 text-sky-400 font-semibold text-sm hover:border-sky-400 hover:bg-sky-400/10 transition-all duration-300 hover:scale-105"
