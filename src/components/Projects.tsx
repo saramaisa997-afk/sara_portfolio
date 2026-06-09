@@ -19,14 +19,13 @@ const projects: Project[] = [
       'A fully responsive personal portfolio website showcasing projects, skills, and experience with a modern dark theme UI and smooth animations.',
     icon: Globe,
     accent: 'from-sky-500 to-blue-600',
-    stack: ['React', 'TypeScript', 'Tailwind CSS', 'GitHub'],
+    stack: ['HTML', 'CSS', 'JavaScript'],
     features: [
       'Responsive design across all devices',
       'Dark theme with smooth animations',
       'Interactive navigation with scroll effects',
-      'Performance optimized with Vite',
     ],
-    links: { github: 'https://github.com/saramaisa997-afk/portfolio' },
+    links: { github: 'https://github.com/saramaisa997-afk/my_first_basic_portfolio' },
   },
   {
     title: 'Student Management System',
@@ -40,7 +39,7 @@ const projects: Project[] = [
       'Full CRUD Operations (Create, Read, Update, Delete)',
       'Data persistence with file storage',
     ],
-    links: { github: 'https://github.com' },
+    links: { github: 'https://github.com/saramaisa997-afk/Student-management-system' },
   },
   {
     title: 'Library Management System',
@@ -54,7 +53,7 @@ const projects: Project[] = [
       'Add, Issue, Return, and Delete books',
       'User-friendly desktop application',
     ],
-    links: { github: 'https://github.com' },
+    links: { github: 'https://github.com/saramaisa997-afk/library-management-system-java-gui-' },
   },
 ];
 

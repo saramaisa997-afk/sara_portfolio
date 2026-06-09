@@ -2,7 +2,7 @@ import { useReveal } from '../hooks/useReveal';
 import { Briefcase, Calendar, CheckCircle } from 'lucide-react';
 
 const bullets = [
-  'Designed and developed a responsive personal portfolio website using HTML5, CSS3, and JavaScript.',
+  'Designed and developed a responsive personal portfolio website using HTML5, CSS3, JavaScript, TypeScript, Tailwind CSS , React, Node.js.',
   'Built backend functionality using PHP for dynamic web features.',
   'Developed full-stack web applications with modular architecture and performance optimization.',
   'Improved UI responsiveness and cross-browser compatibility across multiple devices.',
@@ -67,7 +67,7 @@ export default function Experience() {
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mt-8 pt-6 border-t border-white/10">
-                  {['HTML5', 'CSS3', 'JavaScript', 'PHP', 'Full Stack', 'Responsive Design'].map(tag => (
+                  {['HTML5', 'CSS3', 'JavaScript', 'PHP', 'TypeScript', 'Tailwind CSS' , 'React', 'Node.js','Full Stack', 'Responsive Design'].map(tag => (
                     <span
                       key={tag}
                       className="px-3 py-1.5 text-xs rounded-lg bg-sky-500/10 text-sky-400 border border-sky-500/30 font-code hover:bg-sky-500/20 hover:border-sky-500/60 transition-all hover:scale-105 cursor-default"
