@@ -65,7 +65,6 @@ function CertCard({ cert, index }: { cert: Cert; index: number }) {
           </div>
         </div>
         <div className="mt-5 flex items-center gap-1.5 text-xs text-slate-500 group-hover:text-sky-400 transition-colors">
-          <ExternalLink size={13} />
         </div>
       </div>
     </div>

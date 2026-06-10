@@ -38,7 +38,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Resources</h3>
             <ul className="space-y-2">
-              {['Resume', 'Blog', 'GitHub', 'LinkedIn'].map(link => (
+              {['Resume', 'GitHub', 'LinkedIn'].map(link => (
                 <li key={link}>
                   <a
                     href="#"
